@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Household List</title>
+</head>
+<body>
+    <h1>Household List</h1>
+    <button onclick="location.href='create_household.html'">Create Household</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Household Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Example Household 1</td>
+                <td>
+                    <button onclick="location.href='view_household.html?id=1'">View</button>
+                    <button onclick="location.href='edit_household.html?id=1'">Edit</button>
+                    <button onclick="location.href='meal_planning.html?id=1'">Meal Planning</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Example Household 2</td>
+                <td>
+                    <button onclick="location.href='view_household.html?id=2'">View</button>
+                    <button onclick="location.href='edit_household.html?id=2'">Edit</button>
+                    <button onclick="location.href='meal_planning.html?id=2'">Meal Planning</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
